@@ -1,4 +1,4 @@
-FROM node:latest
+FROM mcr.microsoft.com/playwright:v1.43.0-jammy
 
 RUN mkdir -p /app
 WORKDIR /app
